@@ -2,10 +2,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="sidebar" class="sidepanel">
-        <a href="javascript"
-    </div>>
-    <img src="https://whc.unesco.org/uploads/thumbs/site_1029_0001-1200-630-20151105160411.jpg">
-    <a href="image_portfolio.html" target="_blank">Gallery</a>
-
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Gallery</a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
 </body>
