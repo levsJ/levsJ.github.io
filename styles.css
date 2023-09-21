@@ -8,7 +8,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #008cff;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -21,11 +21,11 @@ body{
     color: #818181;
     display: block;
     transition: 0.3s;
-    background-color: #111;
+    background-color: #008cff;
   }
   
   .sidebar a:hover {
-    color: #f1f1f1;
+    color: #000000;
   }
   
   .sidebar .closebtn {
@@ -39,16 +39,15 @@ body{
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
+    background-color: #008cff;
     color: white;
     padding: 10px 15px;
     border: none;
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: #219afd;
   }
-  
   #main {
     transition: margin-left .5s;
     padding: 16px;
