@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    font-style: oblique;
+    font-family: cursive;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+  }
+  .banner{
+    height: 10%;
+    width: 100%;
+    object-fit: cover;
+  }
+.img1{
+    height: 845px;
+    width: 845px;
+    object-fit:cover;
+    margin: 50px;
+    border:solid 2.5px white;
+}
+.img2{
+    height: 845px;
+    width: 845px;
+    object-fit:cover;
+    margin: 50px;
+    border:solid 2.5px white;
+}
