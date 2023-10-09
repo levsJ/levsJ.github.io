@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 .parallax1{
-  background-image: url(P1030361.JPG);
+  background-image: url("P1030361.JPG");
   height: 70%;
   background-attachment: fixed;
   background-position: center;
@@ -10,7 +10,7 @@ body{
   background-size: cover;
 }
 .parallax2{
-  background-image: url(P1030369.JPG);
+  background-image: url("P1030369.JPG");
   height: 70%;
   background-attachment: fixed;
   background-position: center;
@@ -18,7 +18,7 @@ body{
   background-size: cover;
 }
 .parallax3{
-  background-image: url(P1030251.JPG);
+  background-image: url("P1030251.JPG");
   height: 70%;
   background-attachment: fixed;
   background-position: center;
@@ -26,7 +26,7 @@ body{
   background-size: cover;
 }
 .parallax4{
-  background-image: url(P1030274.JPG);
+  background-image: url("P1030274.JPG");
   height: 70%;
   background-attachment: fixed;
   background-position: center;
