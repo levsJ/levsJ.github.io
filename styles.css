@@ -3,7 +3,8 @@ body{
 }
 .parallax1{
   background-image: url("P1030361.JPG");
-  height: 70%;
+  height: 50%;
+  width: 50%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
